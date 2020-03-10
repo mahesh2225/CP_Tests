@@ -1,0 +1,103 @@
+.search-icon {
+    padding-bottom: 5px;
+    color: white;
+    margin-right: 5px;    
+}
+
+/* width of search box section */
+
+#search-box-section {
+    width: 300px;
+}
+
+/* search icon with margin */
+
+
+/*the header banner and aligning items to center */
+
+.app-header {
+    background-color: #273238;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.user-name {
+    color: #c3c3c3;
+    text-transform: none;
+}
+
+
+
+.menu-option {
+    font-weight: 500;
+}
+
+.dispBlock {
+    display: block;
+}
+/* menu option link with color */
+
+.menu-option-link {
+    color: black;
+    text-decoration: none;
+}
+
+/* top margin for the Menu */
+
+.profile-options-menu {
+    margin-top: 40px;
+}
+
+.tab-container {
+    padding: 0px;
+    text-align: center;
+}
+
+.tabs {
+    margin-bottom: 20px;
+}
+.dispNone {
+    display: none;
+}
+
+
+
+/** color red for Error validation messages */
+
+.red {
+    color: red;
+}
+
+/* style based on screen width */
+
+@media(max-width: 525px) {
+       .app-header {
+        flex-direction: column;
+        align-items: baseline;
+        min-width: 100%;
+    }
+   
+    .profile-options-menu {
+        margin-top: 50px;
+    }
+}
+
+/* margin right for the account icon */
+
+.account-icon {
+    margin-right: 5px;
+}
+
+.user-account-icon {
+    color: #c3c3c3;
+    margin-right: 5px;
+}
+
+@media(max-width:310px) {
+    #search-box-section {
+        width: auto;
+    }
+}
